@@ -1,0 +1,165 @@
+[
+  
+  {
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "content": "This research paper introduces the Transformer architecture based entirely on self-attention mechanisms, forming the foundation of modern NLP models."
+  },
+  {
+    "title": "Deep Learning Overview",
+    "url": "https://www.deeplearningbook.org/",
+    "content": "This resource explains deep learning concepts including neural networks, representation learning, and applications in AI systems."
+  },
+  {
+    "title": "Machine Learning Crash Course by Google",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "content": "A beginner-friendly course covering supervised learning, loss functions, gradient descent, and neural networks."
+  },
+  {
+    "title": "Hugging Face Transformers Documentation",
+    "url": "https://huggingface.co/docs/transformers",
+    "content": "Official documentation for using transformer-based models for NLP tasks such as text generation, summarization, and question answering."
+  },
+  {
+    "title": "Scikit-learn User Guide",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "content": "A comprehensive guide to machine learning algorithms including classification, regression, clustering, and model evaluation."
+  },
+  {
+    "title": "AI & Machine Learning Notes (PDF)",
+    "url": "/static/pdfs/ai_ml.pdf",
+    "content": "This PDF provides structured notes on artificial intelligence and machine learning concepts, including supervised learning, neural networks, and real-world use cases."
+  },
+
+  
+
+  {
+    "title": "MDN Web Development Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn",
+    "content": "MDN documentation covering HTML, CSS, JavaScript, web standards, browser compatibility, and frontend best practices."
+  },
+  {
+    "title": "JavaScript Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "content": "A detailed guide to JavaScript programming including event handling, asynchronous programming, and core language features."
+  },
+  {
+    "title": "React Official Documentation",
+    "url": "https://react.dev/",
+    "content": "Official React documentation for building component-based, scalable, and high-performance user interfaces."
+  },
+  {
+    "title": "Node.js Documentation",
+    "url": "https://nodejs.org/en/docs",
+    "content": "Node.js documentation explaining server-side JavaScript, REST APIs, and scalable backend development."
+  },
+  {
+    "title": "REST API Design Guidelines",
+    "url": "https://restfulapi.net/",
+    "content": "Guidelines for designing RESTful APIs using HTTP methods, stateless architecture, and best practices."
+  },
+  {
+    "title": "Web Development Notes (PDF)",
+    "url": "/static/pdfs/web_dev.pdf",
+    "content": "This PDF contains detailed notes on web development, including HTML, CSS, JavaScript, frontend-backend concepts, and practical examples."
+  },
+
+
+
+  {
+    "title": "AWS Cloud Computing Overview",
+    "url": "https://aws.amazon.com/what-is-cloud-computing/",
+    "content": "An overview of cloud computing concepts including scalability, elasticity, and AWS cloud services."
+  },
+  {
+    "title": "Microsoft Azure Documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/",
+    "content": "Azure documentation covering virtual machines, databases, AI services, and DevOps tools."
+  },
+  {
+    "title": "Google Cloud Platform Overview",
+    "url": "https://cloud.google.com/docs/overview",
+    "content": "An introduction to Google Cloud services including computing, storage, networking, and machine learning."
+  },
+  {
+    "title": "Docker Documentation",
+    "url": "https://docs.docker.com/",
+    "content": "Documentation on containerization using Docker to package and deploy applications consistently."
+  },
+  {
+    "title": "Kubernetes Basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "content": "A beginner guide to Kubernetes for orchestrating containerized applications."
+  },
+  {
+    "title": "Cloud Computing Fundamentals (PDF)",
+    "url": "/static/pdfs/Cloud_Computing.pdf",
+    "content": "This PDF explains cloud computing models, deployment strategies, AWS, Azure, and container orchestration concepts."
+  },
+
+  
+
+  {
+    "title": "Cybersecurity Fundamentals",
+    "url": "https://www.cisa.gov/cybersecurity",
+    "content": "An introduction to cybersecurity concepts such as access control, threat detection, and data protection."
+  },
+  {
+    "title": "OWASP Top 10",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "content": "A list of the most critical web application security risks and vulnerabilities."
+  },
+  {
+    "title": "Network Security Basics",
+    "url": "https://www.cloudflare.com/learning/network-layer/what-is-network-security/",
+    "content": "Explains network security principles including firewalls, intrusion detection, and encryption."
+  },
+  {
+    "title": "Encryption and Cryptography",
+    "url": "https://www.khanacademy.org/computing/computer-science/cryptography",
+    "content": "Covers cryptographic techniques used to secure communication and protect data."
+  },
+  {
+    "title": "Zero Trust Security Model",
+    "url": "https://www.cloudflare.com/learning/security/glossary/what-is-zero-trust/",
+    "content": "Explains the zero-trust approach requiring continuous verification of users and systems."
+  },
+  {
+    "title": "Cybersecurity Notes (PDF)",
+    "url": "/static/pdfs/Cloud_Computing.pdf",
+    "content": "This PDF provides structured notes on cybersecurity, including threats, encryption, network security, and best practices."
+  },
+
+  
+
+  {
+    "title": "Introduction to Financial Technology",
+    "url": "https://www.investopedia.com/terms/f/fintech.asp",
+    "content": "Explains fintech concepts such as digital payments, online banking, and financial automation."
+  },
+  {
+    "title": "Algorithmic Trading Basics",
+    "url": "https://www.investopedia.com/articles/trading/11/algorithmic-trading.asp",
+    "content": "Introduces algorithmic trading strategies using automated rule-based systems."
+  },
+  {
+    "title": "Risk Management in Finance",
+    "url": "https://www.investopedia.com/terms/r/riskmanagement.asp",
+    "content": "Explains financial risk identification, assessment, and mitigation strategies."
+  },
+  {
+    "title": "Healthcare Data Analytics",
+    "url": "https://www.healthit.gov/topic/health-it-basics/health-data-analytics",
+    "content": "Describes how data analytics improves healthcare outcomes and operational efficiency."
+  },
+  {
+    "title": "Electronic Health Records (EHR)",
+    "url": "https://www.healthit.gov/topic/health-it-basics/what-are-electronic-health-records-ehrs",
+    "content": "Explains electronic health records and their role in modern healthcare systems."
+  },
+  {
+    "title": "Finance & Healthcare Analytics Notes (PDF)",
+    "url": "/static/pdfs/Finance_Healthcare.pdf",
+    "content": "This PDF covers finance and healthcare analytics, risk management, healthcare data systems, and real-world applications."
+  }
+]
