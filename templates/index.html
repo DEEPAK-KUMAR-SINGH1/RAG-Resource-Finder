@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG Resource Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px 22px;
+            font-size: 16px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        .section {
+            margin-top: 25px;
+        }
+
+        .section h2 {
+            color: #1f2937;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 6px;
+        }
+
+        .answer-box {
+            background: #f9fafb;
+            padding: 18px;
+            border-radius: 8px;
+            line-height: 1.6;
+            white-space: pre-line;
+        }
+
+        .sources ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .sources li {
+            padding: 8px 0;
+        }
+
+        .sources a {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        .sources a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        @media (max-width: 600px) {
+            form {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>📚 AI Resource Finder</h1>
+
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter your learning topic or question..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if answer %}
+    <div class="section">
+        <h2>🧠 AI Answer</h2>
+        <div class="answer-box">
+            {{ answer }}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if retrieved %}
+<div class="section sources">
+    <h2>🔗 Sources Used</h2>
+    <ul>
+        {% for r in retrieved %}
+        <li>
+            <strong>{{ r.title }}</strong><br>
+
+            {% if r.url.endswith('.pdf') %}
+                📄 <a href="{{ r.url }}" target="_blank">Open PDF</a>
+            {% else %}
+                🔗 <a href="{{ r.url }}" target="_blank">Open Resource</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+
+    <footer>
+        Powered by RAG • Mistral LLM • Flask
+    </footer>
+</div>
+
+</body>
+</html>
