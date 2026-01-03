@@ -1,5 +1,5 @@
 📚 AI Resource Finder (RAG + Mistral + Flask)
-
+DEMO Video = https://www.loom.com/share/1a98549a62ea4f66b5cac15efb7b10f1
 An AI-powered Resource Finder built using Retrieval-Augmented Generation (RAG) that provides structured answers along with relevant learning resources such as articles, blogs, documentation links, and local PDFs.
 
 🚀 Features
